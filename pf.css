@@ -1,0 +1,65 @@
+
+body{
+    background-color: whitesmoke;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:lightgray;
+    color: white;
+    font-family: Arial, sans-serif;
+
+
+}
+
+#image{
+    border-radius: 50px;
+    text-align: center;
+}
+
+#um{
+    text-align: center; 
+     
+}
+
+.main{
+    border: 2px solid;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(57, 136, 211);
+    
+}
+
+#blog{
+    font-size: 17px;
+    width: 430px;
+}
+
+p a{
+    color: white;  
+}
+
+
+
+#script{
+    width: fit-content;
+}
+
+
+
+
+@media screen and ( max-width:680px) {
+    body{
+       width: 100%;
+       
+    
+       
+    }
+
+    body #work{
+        width: fit-content;
+    }
+}
